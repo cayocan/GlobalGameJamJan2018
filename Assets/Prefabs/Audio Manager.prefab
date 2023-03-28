@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1575470523431658}
+  m_IsPrefabParent: 1
+--- !u!1 &1575470523431658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4603296859407982}
+  - component: {fileID: 114010467873774618}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4603296859407982
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575470523431658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114010467873774618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575470523431658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f83c3214cbd254ca65960a51d18c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonMusic: {fileID: 0}
+  buttonSFX: {fileID: 0}
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 58782e9a153e049419c02d673a6d04e1, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    soundType: 0
+    source: {fileID: 0}
+  - name: SFX_On
+    clip: {fileID: 8300000, guid: e2a25f0fabdac0d499a9afff73e846d5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: ClickSound
+    clip: {fileID: 8300000, guid: fffb4c3fb707e2447b7099b9b1ab9219, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: Beep
+    clip: {fileID: 8300000, guid: aed96477d8d5f6c4bbb5c34e64b42e69, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: 1
+    clip: {fileID: 8300000, guid: 5802af735592af544b9f479f5426555e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: 2
+    clip: {fileID: 8300000, guid: ef3bb64f77d25884a9f569af9909d934, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: 3
+    clip: {fileID: 8300000, guid: e1b089d37fd76394fb4c22bb0e21eb10, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: 4
+    clip: {fileID: 8300000, guid: 4ac69b0e7aad31b4c861759e4ac5cc2f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: 5
+    clip: {fileID: 8300000, guid: 04da5f2b9bdf9584f86b5ad589184509, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: A
+    clip: {fileID: 8300000, guid: d0fdf7c1e79d7734f9a02d654cb12f53, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: B
+    clip: {fileID: 8300000, guid: 0789eb62ec614cb468090e349d4a9164, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: C
+    clip: {fileID: 8300000, guid: 81e7c2557de2ced4fbf559032e4b42d4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: D
+    clip: {fileID: 8300000, guid: f0d3b8204a77a1b489bc03d85a48d1c6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: E
+    clip: {fileID: 8300000, guid: 8dc008bf290aeef4d9d1fc78e751ef16, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: T1
+    clip: {fileID: 8300000, guid: 2658069d6603d1b478aa0239a7373078, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 0
+    source: {fileID: 0}
+  - name: T2
+    clip: {fileID: 8300000, guid: 8f92f9151ade99b458f194425bf7160e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 0
+    source: {fileID: 0}
+  - name: T3
+    clip: {fileID: 8300000, guid: 807d58cd7f905b34fb091b70194e0875, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 0
+    source: {fileID: 0}
+  - name: T4
+    clip: {fileID: 8300000, guid: 7f307a77f6b28e64a9d0629e4b07c6b6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 0
+    source: {fileID: 0}
+  - name: Over
+    clip: {fileID: 8300000, guid: 6761e506fcc4b4e4cb5198873118a3fe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: 4950a749ecf241c4b8c109a688c6c77e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
